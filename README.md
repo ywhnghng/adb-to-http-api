@@ -7,10 +7,6 @@ Headless Mode (--no-gui): Pure HTTP service with no GUI library dependencies, ma
 Requires Python 3.11+ (3.11 recommended for development/packaging; this repository is verified on 3.13).
 bash
 
-编辑
-
-
-
 pip install -r requirements.txt
 Runtime dependencies:
 Flask>=3.0,<4.0
@@ -28,18 +24,10 @@ On startup, the service uses AdbRunner.resolve_adb_path() to detect adb. If not 
 3.1 GUI Mode (Default)
 bash
 
-编辑
-
-
-
 python main.py
 An "ADB HTTP Service" window will appear, displaying the listening address, status indicator, connected device count, and scrolling logs. It provides "Start Service / Stop Service" buttons. Closing the window minimizes it to the system tray (does not exit). Right-click the tray icon to "Open Main Window / Start Service / Stop Service / Exit".
 3.2 Headless Mode (Recommended for scripts/services)
 bash
-
-编辑
-
-
 
 python main.py --no-gui --port 8000
 Does not import gui / pystray; runs without any GUI dependencies.
@@ -66,10 +54,6 @@ Double-click 启动服务.bat to run in the background; double-click 停止服�
 Lock to Python 3.11 environment for packaging:
 bash
 
-编辑
-
-
-
 pip install pyinstaller
 pyinstaller build.spec
 Output: dist/main.exe (onefile, windowed/no console). Double-click to run in GUI mode; manage start/stop via the system tray.
@@ -78,10 +62,6 @@ Note: Building on other versions like Python 3.13 may succeed, but the resulting
 Online Documentation: After starting the service, visit http://127.0.0.1:8000/doc for the complete usage guide (includes instructions for other Agents, operation manuals, full endpoint list, and call examples).
 All responses follow a unified envelope:
 json
-
-编辑
-
-
 
 { "success": bool, "data": ..., "error": { "code": "...", "message": "..." } | null }
 Health Check / Control
@@ -120,7 +100,7 @@ Default 127.0.0.1: Accessible only locally; secure.
 Using --host 0.0.0.0 listens on all network interfaces. Use only in trusted LANs or behind an authenticated reverse proxy to avoid exposing adb control capabilities to untrusted networks.
 Stopping the service prevents further HTTP control of devices. kill_adb_on_stop is disabled by default to avoid affecting other tools relying on adb.
 10. Troubleshooting
-表格
+
 Symptom	Cause / Solution
 Port conflict on startup	Change --port or kill the occupying process (see 停止服务.bat)
 Endpoint returns 500 ADB_NOT_FOUND	adb not installed or not in PATH; install per Section 2
