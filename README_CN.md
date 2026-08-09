@@ -1,3 +1,9 @@
+<div align="center">
+
+[![中文文档](https://img.shields.io/badge/lang-中文-red)](README_CN.md)
+[![English](https://img.shields.io/badge/lang-English-blue)](README.md)
+
+</div>
 # ADB HTTP API Server
 
 一个**本机优先**的 Android Debug Bridge（adb）HTTP 服务：通过简洁的 REST API
