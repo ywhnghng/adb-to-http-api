@@ -1,0 +1,16 @@
+2026-08-09 06:55:44,832 [INFO] adb_api.main: Wrote PID 5424 to adb_api.pid
+2026-08-09 06:55:44,832 [INFO] adb_api.main: Starting headless server on 127.0.0.1:8000
+2026-08-09 06:56:27,116 [INFO] adb_api.main: Wrote PID 25980 to adb_api.pid
+2026-08-09 06:56:27,117 [INFO] adb_api.main: Starting headless server on 127.0.0.1:8001
+2026-08-09 07:01:04,849 [INFO] adb_api.main: Wrote PID 37628 to adb_api.pid
+2026-08-09 07:01:04,849 [INFO] adb_api.main: Starting headless server on 127.0.0.1:8000
+2026-08-09 07:02:36,682 [INFO] adb_api.main: Wrote PID 34792 to adb_api.pid
+2026-08-09 07:02:36,682 [INFO] adb_api.main: Starting headless server on 127.0.0.1:8000
+2026-08-09 07:08:28,879 [INFO] adb_api.main: Wrote PID 38416 to adb_api.pid
+2026-08-09 07:08:28,880 [INFO] adb_api.main: Starting headless server on 127.0.0.1:8000
+2026-08-09 07:17:31,709 [INFO] adb_api.main: Wrote PID 3868 to adb_api.pid
+2026-08-09 07:17:31,709 [INFO] adb_api.main: Starting headless server on 127.0.0.1:8001
+2026-08-09 07:42:55,051 [INFO] adb_api.main: Wrote PID 27216 to adb_api.pid
+2026-08-09 07:42:55,051 [INFO] adb_api.main: Starting headless server on 127.0.0.1:8002
+2026-08-09 08:11:12,195 [INFO] adb_api.main: Wrote PID 6296 to adb_api.pid
+2026-08-09 08:11:12,196 [INFO] adb_api.main: Starting headless server on 127.0.0.1:8006
