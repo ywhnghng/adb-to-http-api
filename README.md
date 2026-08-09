@@ -1,3 +1,9 @@
+<div align="center">
+
+[![中文文档](https://img.shields.io/badge/lang-中文-red)](README_CN.md)
+[![English](https://img.shields.io/badge/lang-English-blue)](README.md)
+
+</div>
 ADB HTTP API Server
 A local-first Android Debug Bridge (adb) HTTP service: perform common operations on connected Android devices via a concise REST API (device enumeration, APK install/uninstall, file push/pull, screenshot/screen recording, shell commands, port forwarding, reboot, etc.). By default, it listens only on 127.0.0.1, making it suitable for local scripts/GUI control; it can optionally be exposed to 0.0.0.0 (trusted networks only).
 Available in two modes:
