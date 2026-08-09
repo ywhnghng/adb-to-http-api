@@ -34,7 +34,7 @@ Does not import gui / pystray; runs without any GUI dependencies.
 Automatically writes its PID to --pid-file (defaults to adb_api.pid in the project root).
 Registers SIGTERM / SIGINT cleanup handlers (stops service + deletes PID file).
 Common arguments:
-表格
+
 Argument	Description	Default
 --port	HTTP port	8000
 --host	Bind address (0.0.0.0 to expose to LAN)	127.0.0.1
